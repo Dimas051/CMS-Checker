@@ -30,6 +30,16 @@ Bayangkan kamu punya 1000 website yang mau dicek :
 1. Gunakan thread 10-100 tergantung kekuatan RDP/VPS kamu.
 2. Jangan terlalu tinggi (misal >200) karena bisa membuat rate limit atau ban IP.
 
+🧹 Filter Duplikat di Tools Ini
+
+Di dalam kode tools ini, ada fungsi khusus buat menghapus URL yang sama supaya URL yang diproses cuma satu kali saja
+
+Kesimpulan Filter Duplikat di Tools ini :
+1. Membuat proses scanning CMS lebih cepat dan efisien
+2. Menghindari pengecekan website yang sama berkali-kali
+3. Membuat hasil output dan log jadi bersih dan rapi
+4. Menggunakan metode sederhana dan efektif dengan dict.fromkeys + lowercase
+   
 🎁 Kesimpulan
 
 🛠️ Script ini adalah alat CMS detector cepat berbasis threading, cocok untuk:
